@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551135625688",
+    "firebase_url": "https://coc-helper-4ac45.firebaseio.com",
+    "project_id": "coc-helper-4ac45",
+    "storage_bucket": "coc-helper-4ac45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551135625688:android:0af149c3919d8dde",
+        "android_client_info": {
+          "package_name": "capstoneproject.androidnanodegree.com.cochelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551135625688-k5vase73048g6hb422ej6v5ajce56apm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "capstoneproject.androidnanodegree.com.cochelper",
+            "certificate_hash": "0C731FE4A71785D636BBF3E648BBA58A86312868"
+          }
+        },
+        {
+          "client_id": "551135625688-j8uqh3k6u0foc5d1uv2h6sbiu7rk33u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_CIabi9ROTg-g7m3HsjSicf-KsYmDCq8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551135625688-j8uqh3k6u0foc5d1uv2h6sbiu7rk33u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CoC Helper</string>
+    <string name="badge">league Badge</string>
+    <string name="name">Name</string>
+    <string name="war_star">War Star</string>
+    <string name="troop_donated">Troops Donated</string>
+    <string name="troop_recieved">Troops Recieved</string>
+    <string name="get">get</string>
+    <string name="enter_profile">Enter Profile Tag</string>
+    <string name="image">image</string>
+    <string name="perc_dona">Percentage</string>
+    <string name="heading">Heading</string>
+    <string name="invitation_message">For all Clash of Clan Lovers</string>
+    <string name="invitation_title">Download my Capstone Project</string>
+</resources>
