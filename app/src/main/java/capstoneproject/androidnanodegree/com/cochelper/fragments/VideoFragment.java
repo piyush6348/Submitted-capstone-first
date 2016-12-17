@@ -112,7 +112,6 @@ public class VideoFragment extends Fragment implements LoaderManager.LoaderCallb
             try {
                 getActivity().getContentResolver().applyBatch(QuoteProvider.AUTHORITY, batchOperations);
             } catch (RemoteException | OperationApplicationException e) {
-                Log.d("database", "Error applying batch insert", e);
             }
             c = getContext().getContentResolver().query(QuoteProvider.Quotes.CONTENT_URI, null, null, null, null);
             videoListCursorAdapter = new VideoListCursorAdapter(getActivity(), c);

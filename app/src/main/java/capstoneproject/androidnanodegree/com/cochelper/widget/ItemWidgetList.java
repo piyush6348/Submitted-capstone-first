@@ -68,7 +68,6 @@ class OtherWidgetList implements RemoteViewsService.RemoteViewsFactory {
         Log.e("Item_Widget_getview", "is running");
         String url = "";
         String title = "";
-        //String change = "";
 
         if (c.moveToPosition(position)) {
             url = c.getString(c.getColumnIndex(DatabseColumns.URL));
@@ -78,17 +77,7 @@ class OtherWidgetList implements RemoteViewsService.RemoteViewsFactory {
         }
         Log.e("getViewAt: ", "hi " + title);
         row = new RemoteViews(context.getPackageName(), R.layout.list_item_quote);
-        //Picasso.with(context).load(url).into(row,R.id.thumbnail,appWidgetId[position]);
         row.setTextViewText(R.id.heading, title);
-        //Picasso.with(context).load(url).into(row,R.id.thumbnail,new int[]{appWidgetId});
-        /*
-        try {
-            Bitmap b=Picasso.with(context).load(url).get();
-            row.setImageViewBitmap(R.id.thumbnail,b);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-*/
 
         return row;
     }

@@ -114,7 +114,7 @@ public class FileFragment extends Fragment {
                 } catch (Exception e) {
                     don = 0;
                 }
-                percTroop.setText("Donation Ratio -" + String.valueOf(don) + "%");
+                percTroop.setText(getString(R.string.donation) + String.valueOf(don) + "%");
             } else {
                 Toast.makeText(getActivity(), auth + "  Try Again! ", Toast.LENGTH_LONG).show();
             }
