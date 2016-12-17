@@ -23,8 +23,8 @@
         <receiver
             android:icon="@android:drawable/ic_dialog_dialer"
             android:label="CoC Helper"
-            android:name="capstoneproject.androidnanodegree.com.cochelper.widget.SimpleWidgetProvider" >
-            <intent-filter >
+            android:name="capstoneproject.androidnanodegree.com.cochelper.widget.SimpleWidgetProvider">
+            <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
 
@@ -33,14 +33,15 @@
                 android:resource="@xml/widget_info" />
         </receiver>
 
-        <service android:name=".widget.Item_Widget_List"
+        <service
+            android:name=".widget.ItemWidgetList"
             android:permission="android.permission.BIND_REMOTEVIEWS"
-            android:exported="false"/>
+            android:exported="false" />
 
         <provider
             android:authorities="capstoneproject.androidnanodegree.com.cochelper.database.QuoteProvider"
             android:name="capstoneproject.androidnanodegree.com.cochelper.database.generated.QuoteProvider"
-            android:exported="true"/>
+            android:exported="true" />
     </application>
 
 </manifest>

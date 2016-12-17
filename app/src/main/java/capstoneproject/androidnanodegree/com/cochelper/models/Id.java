@@ -1,7 +1,6 @@
 package capstoneproject.androidnanodegree.com.cochelper.models;
 
 
-
 public class Id {
     private String videoId;
 

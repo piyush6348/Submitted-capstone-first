@@ -12,4 +12,7 @@
     <string name="heading">Heading</string>
     <string name="invitation_message">For all Clash of Clan Lovers</string>
     <string name="invitation_title">Download my Capstone Project</string>
+    <string name="share">Share</string>
+    <string name="profile_tag">Enter Profile Tag</string>
+    <string name="loading">Loading...</string>
 </resources>

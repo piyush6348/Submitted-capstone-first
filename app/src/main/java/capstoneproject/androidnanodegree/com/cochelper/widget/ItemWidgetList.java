@@ -13,21 +13,21 @@ import capstoneproject.androidnanodegree.com.cochelper.database.DatabseColumns;
 import capstoneproject.androidnanodegree.com.cochelper.database.QuoteProvider;
 
 
-public class Item_Widget_List extends RemoteViewsService {
+public class ItemWidgetList extends RemoteViewsService {
 
     @Override
     public RemoteViewsFactory onGetViewFactory(Intent intent) {
-        return new Other_Widget_List(this.getApplicationContext(), intent);
+        return new OtherWidgetList(this.getApplicationContext(), intent);
     }
 }
 
-class Other_Widget_List implements RemoteViewsService.RemoteViewsFactory {
+class OtherWidgetList implements RemoteViewsService.RemoteViewsFactory {
     Cursor c;
     private Context context = null;
     private int appWidgetId;
     RemoteViews row;
 
-    public Other_Widget_List(Context context, Intent intent) {
+    public OtherWidgetList(Context context, Intent intent) {
 
         this.context = context;
         appWidgetId = intent.getIntExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, AppWidgetManager.INVALID_APPWIDGET_ID);

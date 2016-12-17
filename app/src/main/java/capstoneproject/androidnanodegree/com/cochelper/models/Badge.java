@@ -1,7 +1,6 @@
 package capstoneproject.androidnanodegree.com.cochelper.models;
 
 
-
 public class Badge {
     private String id;
     private String name;

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
@@ -14,8 +16,7 @@
             android:layout_weight="2"
             android:inputType="textCapCharacters"
             android:hint="@string/enter_profile"
-            android:id="@+id/profile_tag"
-            />
+            android:id="@+id/profile_tag" />
 
         <Button
             android:layout_width="match_parent"
@@ -25,18 +26,20 @@
             android:id="@+id/get"
             android:layout_weight="8"
 
-            android:text="@string/get"
-            />
+            android:text="@string/get" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/badge"
-            android:id="@+id/league_badge"/>
+            android:id="@+id/league_badge" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -44,28 +47,30 @@
             android:contentDescription="@string/name"
             android:id="@+id/name"
             android:theme="@style/Text"
-            android:text="@string/name"
-            />
+            android:text="@string/name" />
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/war_stars"
         android:contentDescription="@string/war_star"
-        android:theme="@style/Text"
-        />
+        android:theme="@style/Text" />
+
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/troop_donated"
         android:theme="@style/Text"
         android:contentDescription="@string/troop_donated"
         android:layout_height="wrap_content" />
+
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/troop_recieved"
         android:theme="@style/Text"
         android:contentDescription="@string/troop_recieved"
         android:layout_height="wrap_content" />
+
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/troop_perc"

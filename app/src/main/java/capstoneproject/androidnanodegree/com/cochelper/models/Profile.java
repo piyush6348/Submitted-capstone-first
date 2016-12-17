@@ -3,7 +3,6 @@ package capstoneproject.androidnanodegree.com.cochelper.models;
 import com.google.gson.annotations.SerializedName;
 
 
-
 public class Profile {
     private String name;
     private int warStars;

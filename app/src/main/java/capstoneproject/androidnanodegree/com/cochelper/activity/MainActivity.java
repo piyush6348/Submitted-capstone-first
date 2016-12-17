@@ -17,10 +17,10 @@ import butterknife.ButterKnife;
 import capstoneproject.androidnanodegree.com.cochelper.R;
 import capstoneproject.androidnanodegree.com.cochelper.adapter.MyPagerAdapter;
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_INVITE = 100;
-    public String TAG="";
+    public String TAG = "";
     ViewPager viewPager;
     Toolbar toolbar;
     TabLayout tabLayout;
@@ -35,9 +35,10 @@ public class MainActivity extends AppCompatActivity  {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId())
-        {
-            case R.id.share:invite();return true;
+        switch (item.getItemId()) {
+            case R.id.share:
+                invite();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -75,14 +76,14 @@ public class MainActivity extends AppCompatActivity  {
         ButterKnife.bind(this);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        viewPager= (ViewPager) findViewById(R.id.view_pager);
+        viewPager = (ViewPager) findViewById(R.id.view_pager);
         tabLayout = (TabLayout) findViewById(R.id.tab_layout);
 
         MyPagerAdapter myPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
         viewPager.setOffscreenPageLimit(2);
         viewPager.setAdapter(myPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
-        TAG=this.getClass().getSimpleName();
+        TAG = this.getClass().getSimpleName();
 
     }
 }

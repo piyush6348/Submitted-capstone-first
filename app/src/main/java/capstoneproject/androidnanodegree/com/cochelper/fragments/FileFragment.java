@@ -51,7 +51,7 @@ public class FileFragment extends Fragment {
                 if (profileTag.getText().toString().compareToIgnoreCase("") != 0)
                     new Asy().execute(profileTag.getText().toString());
                 else
-                    Toast.makeText(getActivity(), "Enter Profile Tag", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), getString(R.string.profile_tag), Toast.LENGTH_LONG).show();
             }
         });
         return view;

@@ -15,7 +15,6 @@ import android.widget.TextView;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.squareup.picasso.Picasso;
 
-
 import capstoneproject.androidnanodegree.com.cochelper.R;
 import capstoneproject.androidnanodegree.com.cochelper.database.QuoteProvider;
 import capstoneproject.androidnanodegree.com.cochelper.utils.Constants;
